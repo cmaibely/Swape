@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Varela+Round&display=swap');
+
+:root{
+	--color-contenido: #fff;
+	--fondo-swape: #09090d;
+	--fondo-features: #101117;
+	--fondo-features2: #121520;
+	--fondo-redes: #151721;
+	--fondo-footer: #040406;
+	--color-naranja: #EDB44D;
+	--color-gris: #dbdce4;
+	--color-footer: #373946;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: var(--color-contenido);
+}
+#hero{
+	background-color: var(--fondo-swape);
+	padding-top: 30px;
+	height: 500px;
+}
+
+
+h1{
+	font-size: 80px;
+	color: var(--color-contenido);
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bold;
+}
+
+#phone1 { 	
+	height: 50px;
+	overflow: hidden;
+	
+}
+
+#phone1 span{
+	display: grid;
+	align-content: center;
+	height: 100%;
+	text-align: center;
+}
+#hero h4{
+	color: var(--color-naranja);
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	font-weight: 100;
+}
+
+#hero p{
+	color: var(--color-contenido);
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	padding-bottom: 30px;
+}
+
+#hero .btn{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	width: 180px;
+	border-radius: 50px;
+}
+
+#features{
+	background-color: var(--fondo-features);
+	text-align: center;
+	padding-top: 60px;
+}
+
+#features h4{
+	color: var(--color-naranja);
+	font-size: 80px;
+	marging: 25px;
+}
